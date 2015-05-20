@@ -1,0 +1,20 @@
+{
+  "name": "jq-detector",
+  "version": "1.0.0",
+  "authors": [
+    "Dirk Sidney Jansen <sid@sidisinsane.com>"
+  ],
+  "main": "jq-detector.js",
+  "keywords": [
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sidisinsane/jq-detector",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

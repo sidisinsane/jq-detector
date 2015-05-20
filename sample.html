@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JqDetector</title>
+
+  <style>
+  .jquery-loaded,
+  .jquery .no-jquery-loaded {
+    display: none;
+  }
+  .no-jquery-loaded,
+  .jquery .jquery-loaded {
+    display: block;
+  }
+  </style>
+</head>
+<body>
+  <p class="jquery-loaded">The class "jquery" was added to the HTML-Tag.</p>
+  <p class="no-jquery-loaded">No class was added to the HTML-Tag.</p>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="jq-detector.min.js"></script>
+  <script>
+  JqDetector.detect();
+  </script>
+</body>
+</html>
